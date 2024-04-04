@@ -1,8 +1,28 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/*   max-width: 1280px; */
+/*   margin: 0 auto; */
+/*   padding: 2rem; */
+  /* text-align: center; */
+  width: 100%;
+}
+
+:root {
+  --background-color-dark: #282c34;
+  --text-color-dark: white;
+  --background-color-light: #f2f4f6;
+  --text-color-light: #0d3f67;
+  /* --navbar-shadow-dark: 0 2px 5px rgba(0, 0, 0, 0.5);
+  --navbar-shadow-light: 0 2px 5px rgba(0, 0, 0, 0.2); */
+}
+
+#Dark {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+#Light {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
 }
 
 .logo {
@@ -33,10 +53,15 @@
   }
 }
 
-.card {
-  padding: 2em;
+/* #Dark {
+  background-color: #282c34;
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+#Light{
+  background-color: #f2f4f6;
+  color: #0d3f67;
 }
+ */
+
+
