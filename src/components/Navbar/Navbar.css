@@ -19,3 +19,6 @@
 .navbar__link{
   color: inherit
 }
+.navbar__link.active {
+  color: rgb(100, 138, 199);
+}
