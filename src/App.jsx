@@ -1,10 +1,8 @@
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import { Navbar } from './components/Navbar'
-import { Home } from './pages/Home'
-import { About } from './pages/About'
-import { Contact } from './pages/Contact'
 import { useThemeContext } from './hooks/useThemeContext'
+import { Navbar } from './components'
+import { About, Contact, Home } from './pages';
 
 function App() {
   const { contextTheme, setContextTheme } = useThemeContext();
